@@ -1,0 +1,49 @@
+questao 3
+programa {
+  funcao inicio() {
+  //declaracao de variaveis
+  real nota1, nota2, nota3, nota4, media
+
+  //entrada de dados
+  escreva("informe a primeira nota") 
+  leia(nota1)
+  
+  escreva ("informe a segunda nota")
+  leia (nota2)
+
+  escreva ("informe a terceira nota")
+  leia (nota3)
+
+  escreva ("informe a quarta nota")
+  leia (nota4)
+
+  //processamento
+  media = (nota1+nota2+nota3+nota4/4)
+
+  //saida de dados
+  escreva ("a media aritimetica e ",media)
+  }
+}
+questao 4
+rograma {
+  funcao inicio() {
+  //declaracao de variaves
+  real gasto1, gasto2, gasto3 , media
+
+  //entrada de dados
+  escreva("informe o gasto do primeiro mes:")
+  leia(gasto1)
+
+  escreva("informe o gasto do segundo mes:")
+  leia(gasto2)
+
+  escreva("informe o gasto do terceiro mes:")
+  leia(gasto3)
+
+  //processamento
+  media=(gasto1+gasto2+gasto3/3)
+
+  //saida de dados
+  escreva("a media dos tres primeiros meses do ano e" ,media)
+  }
+}
