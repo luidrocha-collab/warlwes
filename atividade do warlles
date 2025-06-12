@@ -46,4 +46,44 @@ rograma {
   //saida de dados
   escreva("a media dos tres primeiros meses do ano e" ,media)
   }
+} questao 5
+
+programa {
+  funcao inicio() {
+  real altura,peso_ideal
+
+  // declaracao de constantes
+  const real k=72.7
+  const inteiro b=58
+
+  //entrada de dados
+  escreva("insira o valor da altura")
+  leia(altura)
+
+  //processamento
+  peso_ideal=(k*altura)-b
+
+  //saida de dados
+  escreva("o peso ideal e",peso_ideal)  
+  }
+} questao 6
+
+programa {
+  funcao inicio() {
+    real x, y, troca
+
+    escreva("informe X")
+    leia(x)
+
+    escreva("informe Y")
+    leia(y)
+
+    troca = x
+    x = y
+    y = troca
+
+    escreva("os valores sao", x, y)
+  }
 }
+
+
